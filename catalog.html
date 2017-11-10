@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
@@ -8,7 +7,7 @@
   <body>
     <header>
       <section class="logo">
-        <a class="main-logo"><img src="http://placehold.it/150x40.svg" alt="Техномарт"></a>
+        <a class="main-logo"><img src="img/content/Logo.png" alt="Техномарт"></a>
       </section>
       <section class="search">
         <p class="search-link">Поиск<input type="search"></p>
@@ -33,13 +32,12 @@
         <li>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</li>
       </ul>
     </section>
-    <section class=authorizatized">
+    <section class="authorizatized">
       <div class="person-link">Равшан Джамшутович</div>
       <ul>
         <li><a href="my-orders.html" class="underline">Мои заказы</a></li>
         <li><a href="cabinnet.html" class="underline">Личный кабинет</a></li>
       </ul>
-    </section>               
     </section>
       <nav class="header-site-navigation">
         <ul>
@@ -54,48 +52,50 @@
       </nav>
     </header>
     <main class="catalog">
-      <section class="catalog-pages">
-        <p class="home-link"></p>
-        <p class="arrow-link">Каталог</p>
-        <p class="arrow-link">Интсрумент</p>
-        <p class="arrow-link">Перфораторы</p>
-      </section>
+      <div class="breadcrumps">
+        <ul>
+          <li><a href="index.html" class="home">...</a></li>
+          <li class="arrow">Каталог</li>
+          <li class="arrow">Инструмент</li>
+          <li class="arrow">Перфортаоры</li>
+        </ul>
+      </div>
         <h1>Перфораторы</h1>
         <section class="filters">
-          <p>Фильтр:<span>Список фильтров</span></p>
-          <p>Цена:<span>Ползунок цены</span></p><hr>
-          <p><strong>Производители</strong>:
-            <ul class="markable">
-              <li>Bosch</li>
-              <li>Интерскол</li>
-              <li>Makita</li>
-              <li>Dewalt</li>
-              <li>Hitachi</li></ul></p><hr>
-          <p><strong>Питание</strong>:
-            <ul class="markable">
-              <li>Аккумуляторные</li>
-              <li>Сетевые</li>
-            </ul>
+          <h2>Фильтр:<span>Список фильтров</span></h2>
+          <div>
+          <h3>Цена:<span>Ползунок цены</span></h3>
+        </div>
+          <h3><strong>Производители</strong>:</h3>
+              <p><input type="checkbox" checked>Bosch<br>
+              <input type="checkbox">Интерскол<br>
+              <input type="checkbox" checked>Makita<br>
+              <input type="checkbox">Dewalt<br>
+              <input type="checkbox">Hitachi</p>
+          <h3><strong>Питание</strong>:</h3>
+              <p><input type="radio" checked>Аккумуляторные<br>
+              <input type="radio">Сетевые</p>
             <span><button>Показать</button></span>
           </section>
-          <section class="sorting">
-            <p>Сортировка:
-              <span>ПО ЦЕНЕ</span>
-              <span>ПО ТИПУ</span>
-              <span>ПО ФУНКЦИОНАЛУ</span>
-            </p>
-          </section>
+          <div>
+            <h2>Сортировка:</h2>
+            <ul>
+              <li><span>ПО ЦЕНЕ</span></li>
+              <li><span>ПО ТИПУ</span></li>
+              <li><span>ПО ФУНКЦИОНАЛУ</span></li>
+            </ul>
+          </div>
           <section class="pictures-of-items">
             <ul>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
-              <li><img src="http://placehold.it/150x100">Перфоратор<br>BOSCH BFG 9000<br><i="line-through">32500 Р.</i><br><span><button>25500 Р.</button></span></li>
+              <li><img src="img/content/Drill3000.jpg" alt="Перфоратор BOSCH BFG 3000">Перфоратор BOSCH BFG 3000 22500 Р. <span><button>15500 Р.</button></span></li>
+              <li><img src="img/content/Drill6000.jpg" alt="Перфоратор BOSCH BFG 6000">Перфоратор BOSCH BFG 6000 30500 Р  <span><button>25500 Р.</button></span></li>
+              <li><img src="img/content/Drill2000.jpg" alt="Перфоратор BOSCH BFG 2000">Перфоратор BOSCH BFG 2000 <span><button>12500 Р.</button></span></li>
+              <li><img src="img/content/Drill3000.jpg" alt="Перфоратор BOSCH BFG 3000">Перфоратор BOSCH BFG 3000 22500 Р. <span><button>15500 Р.</button></span></li>
+              <li><img src="img/content/Drill6000.jpg" alt="Перфоратор BOSCH BFG 6000">Перфоратор BOSCH BFG 6000 30500 Р. <span><button>25500 Р.</button></span></li>
+              <li><img src="img/content/Drill2000.jpg" alt="Перфоратор BOSCH BFG 2000">Перфоратор BOSCH BFG 2000 <span><button>25500 Р.</button></span></li>
+              <li><img src="img/content/Drill3000.jpg" alt="Перфоратор BOSCH BFG 3000">Перфоратор BOSCH BFG 3000 22500 Р. <span><button>15500 Р.</button></span></li>
+              <li><img src="img/content/Drill6000.jpg" alt="Перфоратор BOSCH BFG 6000">Перфоратор BOSCH BFG 6000 30500 Р. <span><button>25500 Р.</button></span></li>
+              <li><img src="img/content/Drill2000.jpg" alt="Перфоратор BOSCH BFG 2000">Перфоратор BOSCH BFG 2000 <span><button>12500 Р.</button></span></li>
             </ul>
           </section>
           <section class="catalog-navigation">
@@ -107,7 +107,7 @@
             </ul>
           </section>
           <section class="about-perforators">
-            <h1>Пара слов о перфораторах</h1>
+            <h2>Пара слов о перфораторах</h2>
               <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне, камне.
                 Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,шуруповерта и отбойного молотка. В
                 ассотриментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
@@ -115,7 +115,7 @@
             </main>
     <footer class="main-footer">
       <section class="logo">
-        <a class="main-logo"><img src="http://placehold.it/150x40.svg" alt="Техномарт"></a>
+        <a class="main-logo"><img src="img/content/Logo.png" alt="Техномарт"></a>
       </section>
       <section class="contact-information">
       <ul>
@@ -131,16 +131,15 @@
         <li><a href="delivery.html">Доставка</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
+    </nav>
       <ul class="colored">
         <li><a href="materials.html">Материалы</a></li>
         <li><a href="equiptment.html">Техника</a></li>
         <li><a href="tool.html">Инструмент</a></li>
         <li><a href="special-offer.html">Спецпредложения</a></li>
       </ul>
-    </footer>
-    <footer class="sub-footer"
-      <section class="copyright"
-      <p>&copy 2010-2016 Компания "Техномарт"<br>
+      <section class="copyright">
+      <p>&amp;copy 2010-2016 Компания "Техномарт"<br>
         Все права защищены</p>
       </section>
       <section class="find-us">
@@ -155,8 +154,9 @@
           <li>Обратная связь:<br>
           <a href="https://htmlacademy.ru/intensive/htmlcss" class="colored">mail@htmlacademy.ru</a></li>
           <li>Разработано - <br>
-          <a href="https://htmlacademy.ru/intensive/htmlcss" class="colored">htmlacademy.ru<a></li>
+          <a href="https://htmlacademy.ru/intensive/htmlcss" class="colored">htmlacademy.ru</a></li>
         </ul>
       </section>
+    </footer>
   </body>
 </html>
