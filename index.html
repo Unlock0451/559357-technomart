@@ -15,13 +15,13 @@
         <p class="search-link">Поиск<input type="search"></p>
       </div>
       <div class="marks">
-        <p class="marks-link">Закладки:<span class="number-of-marks"></span></p>
+        <p class="marks-link"><button>Закладки:<span class="number-of-marks"></span></button></p>
       </div>
       <div class="cart">
-        <p class="cart-link">Корзина:<span class="number-of-items"></span></p>
+        <p class="cart-link"><button>Корзина:<span class="number-of-items"></span></button></p>
       </div>
       <div class="order">
-        <p class="order-link"><a href="order.html">Оформить заказ</a></p>
+        <p class="order-link"><button>Оформить заказ</button></p>
       </div>
     </section>
       <div class="about-us">
@@ -34,8 +34,8 @@
     </section>
     <section class="authorization">
       <h2 class="visually-hidden"> Меню авторизации (неавторизирован)</h2>
-        <a class="sign-in-link">Войти</a>
-        <a>Регистация</a>
+        <a class="sign-in-link" href="sign-up">Войти</a>
+        <a href="sign-up">Регистация</a>
     </section>
       <nav class="header-site-navigation">
         <h2 class="visually-hidden">Навигация по сайту</h2>
@@ -67,10 +67,10 @@
           <h2 class="visually-hidden">Популярное</h2>
           <div>Популярные товары:<span><button>Все популярные товары</button></span></div>
           <ul>
-            <li><img src="img/content/Drill9000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 9000 32500 Р. <span><button>25500 Р.</button></span></li>
-            <li><img src="img/content/Drill3000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 3000 22500 Р. <span><button>15500 Р.</button></span></li>
-            <li><img src="img/content/Drill6000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 6000 30500 Р. <span><button>25500 Р.</button></span></li>
-            <li><img src="img/content/Drill2000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 2000 <span><button>12500 Р.</button></span></li>
+            <li><a href="bfg9000.html"><img src="img/content/Drill9000.jpg" alt="Картинка перофратора"></a>Перфоратор BOSCH BFG 9000 32500 Р. <span><button>25500 Р.</button></span></li>
+            <li><a href="bfg9000.html"><img src="img/content/Drill3000.jpg" alt="Картинка перофратора"></a>Перфоратор BOSCH BFG 3000 22500 Р. <span><button>15500 Р.</button></span></li>
+            <li><a href="bfg9000.html"><img src="img/content/Drill6000.jpg" alt="Картинка перофратора"></a>Перфоратор BOSCH BFG 6000 30500 Р. <span><button>25500 Р.</button></span></li>
+            <li><a href="bfg9000.html"><img src="img/content/Drill2000.jpg" alt="Картинка перофратора"></a>Перфоратор BOSCH BFG 2000 <span><button>12500 Р.</button></span></li>
           </ul>
           <div>Популярные производители:<span><button>Все производители</button></span></div>
           <ul>
@@ -96,9 +96,9 @@
               Ведь мы неплохо заработаем,<br>
               Поднимая его на ваш этаж!</p>
             <ul>
-              <li><a href="delivery.html">Доставка</a></li>
-              <li><a href="guarantee.html">Гарантия</a></li>
-              <li><a href="credit.html">Кредит</a></li>
+              <li><button>Доставка</button></li>
+              <li><button>Гарантия</button></li>
+              <li><button>Кредит</button></li>
             </ul>
         </section>
         <section class="transport">
@@ -118,13 +118,13 @@
             <section class="contacts">
               <h2>Контакты</h2>
                 <p>Вы можете забрать товар сами,заехав в наш офис:</p>
-                <span><img src="img/content/map.jpg" alt="Карта"></span>
+                <button class="pop-up>"><img src="img/content/map.jpg" alt="Карта"></button>
                 <!-- Карта -->
-                <p><a href="contact.html">Заблудились? Напишите нам!</a></p>
+                <p><button class="pop-up">Заблудились? Напишите нам!</button></p>
               </section>
             </main>
     <footer class="main-footer">
-        <a class="main-logo"><img src="img/content/Logo.png" alt="Техномарт"></a>
+        <a href="index.html"><img src="img/content/Logo.png" alt="Техномарт"></a>
       <ul>
         <li class="ring-link">+7 (812) 555-05-55</li>
         <li>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</li>
@@ -150,9 +150,9 @@
       </div>
       <div class="find-us">
         <ul>
-          <li class="vkontakte"><button><span></span></button></li>
-          <li class="facebook"><button><span></span></button></li>
-          <li class="instagram"><button><span></span></button></li>
+          <li class="vkontakte"><a href="https://vk.com"><img src="img/dec/vk-icon.svg" alt="vk-link"></a></li>
+          <li class="facebook"><a href="https://facebook.com"><img src="img/dec/fb-icon.svg" alt="facebook-link"></a></li>
+          <li class="instagram"><a href="https://instagram.com"><img src="img/dec/icon-insta.svg" alt="instagram-link"></a></li>
         </ul>
       </div>
       <div class="developer-info">
