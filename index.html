@@ -5,38 +5,40 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
-    <header>
-      <section class="logo">
+    <header class="main-header">
+      <div class="logo">
         <a href="index.html"><img src="img/content/Logo.png" alt="Техномарт"></a>
-      </section>
-      <section class="search">
+      </div>
+      <section class="interface">
+        <h2 class="visually-hidden">Функциональный интерфейс</h2>
+      <div class="search">
         <p class="search-link">Поиск<input type="search"></p>
-      </section>
-      <section class="marks">
+      </div>
+      <div class="marks">
         <p class="marks-link">Закладки:<span class="number-of-marks"></span></p>
-      </section>
-      <section class="cart">
+      </div>
+      <div class="cart">
         <p class="cart-link">Корзина:<span class="number-of-items"></span></p>
-      </section>
-      <section class="order">
-        <p class="order-link">Оформить заказ</p>
-      </section>
-      <section class="about-us">
-        <ul>
-          <li>Интернет-магазин строительных материалов и инструментов для ремонта</li>
-        </ul>
-      </section>
-      <section class="contact-information">
-
-        <div class="ring-link">+7 (812) 555-05-55</div>
-        <div>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</div>
-
+      </div>
+      <div class="order">
+        <p class="order-link"><a href="order.html">Оформить заказ</a></p>
+      </div>
     </section>
-    <div class="authorization">
+      <div class="about-us">
+          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+      </div>
+      <section class="contact-information">
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <p class="ring-link">+7 (812) 555-05-55</p>
+        <p>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</p>
+    </section>
+    <section class="authorization">
+      <h2 class="visually-hidden"> Меню авторизации (неавторизирован)</h2>
         <a class="sign-in-link">Войти</a>
         <a>Регистация</a>
-    </div>
+    </section>
       <nav class="header-site-navigation">
+        <h2 class="visually-hidden">Навигация по сайту</h2>
         <ul>
           <li><a href="main.html">Главная</a></li>
           <li><a href="about-us.html">Компания</a></li>
@@ -49,8 +51,9 @@
       </nav>
     </header>
     <main class="container">
-      <h1 class="visually-hidden">Основные товары и услуги</h1>
+      <h1 class="visually hidden">"ТЕХНОМАРТ"</h1>
         <section class="services-list">
+          <h2 class="visually-hidden">Основные товары и услуги</h2>
           <ul>
             <li class="materials">Материалы<span><button>На любой вкус</button></span></li>
             <li class="tool">Инструмент<span><button>На все случаи</button></span></li>
@@ -60,7 +63,8 @@
             <li class="delivery"><span><button>Бесплатно</button></span></li>
           </ul>
         </section>
-        <section class="popular-items">
+        <section class="popular">
+          <h2 class="visually-hidden">Популярное</h2>
           <div>Популярные товары:<span><button>Все популярные товары</button></span></div>
           <ul>
             <li><img src="img/content/Drill9000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 9000 32500 Р. <span><button>25500 Р.</button></span></li>
@@ -68,8 +72,6 @@
             <li><img src="img/content/Drill6000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 6000 30500 Р. <span><button>25500 Р.</button></span></li>
             <li><img src="img/content/Drill2000.jpg" alt="Картинка перофратора">Перфоратор BOSCH BFG 2000 <span><button>12500 Р.</button></span></li>
           </ul>
-        </section>
-        <section class="popular-manufacturers">
           <div>Популярные производители:<span><button>Все производители</button></span></div>
           <ul>
             <li><a href="bosch.html"><img src="img/content/bosch.jpg" alt="Лого"></a></li>
@@ -83,12 +85,12 @@
           </ul>
         </section>
         <section class="service">
-          <h2>Сервис</h2>
+          <h2>Сервисы</h2>
             <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
             Мы стараемся изо всех сил,чтобы сделать ваши покупки приятными.</p>
         </section>
         <section class="delivery">
-          <h1>Доставка</h1>
+          <h2>Доставка</h2>
             <p>Мы с удовольствием доставим ваш товар прямо<br>
               к вашему подъезду совершенно бесплатно!<br>
               Ведь мы неплохо заработаем,<br>
@@ -99,9 +101,9 @@
               <li><a href="credit.html">Кредит</a></li>
             </ul>
         </section>
-      <h4 class="visually-hidden">Транспортные компании-партнеры</h4>
         <section class="transport">
-            <h1>КОМПАНИЯ "ТЕХНОМАРТ"</h1>
+          <h2 class="visually-hidden">Варианты доставки</h2>
+            <h3>КОМПАНИЯ "ТЕХНОМАРТ"</h3>
               <p>Настоящий мужской шоппинг начинается здесь!Огромный выбор товаров для ремонта и
                 строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.</p>
               <p>Мы можем доставить товар в самые отдалённые точки России!
@@ -111,11 +113,10 @@
                 <li>Автотрейдинг</li>
                 <li>ЖелДорЭкспедиция</li>
               </ul>
-              <p><a href="about-us.html">Подробнее о компании</a></p>
+              <a href="about-us.html">Подробнее о компании</a>
             </section>
-          <h5 class="visually-hidden">Контакты</h5>
             <section class="contacts">
-              <h1>Контакты</h1>
+              <h2>Контакты</h2>
                 <p>Вы можете забрать товар сами,заехав в наш офис:</p>
                 <span><img src="img/content/map.jpg" alt="Карта"></span>
                 <!-- Карта -->
@@ -123,9 +124,7 @@
               </section>
             </main>
     <footer class="main-footer">
-      <section class="logo">
         <a class="main-logo"><img src="img/content/Logo.png" alt="Техномарт"></a>
-      </section>
       <ul>
         <li class="ring-link">+7 (812) 555-05-55</li>
         <li>г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8</li>
@@ -145,25 +144,25 @@
         <li><a href="tool.html">Инструмент</a></li>
         <li><a href="special-offer.html">Спецпредложения</a></li>
       </ul>
-      <section class="copyright">
-      <p>&amp; copy 2010-2016 Компания "Техномарт"<br>
+      <div class="copyright">
+      <p>&amp;copy 2010-2016 Компания "Техномарт"<br>
         Все права защищены</p>
-      </section>
-      <section class="find-us">
+      </div>
+      <div class="find-us">
         <ul>
           <li class="vkontakte"><button><span></span></button></li>
           <li class="facebook"><button><span></span></button></li>
           <li class="instagram"><button><span></span></button></li>
         </ul>
-      </section>
-      <section class="developer-info">
+      </div>
+      <div class="developer-info">
         <ul>
           <li>Обратная связь:<br>
           <a href="https://htmlacademy.ru/intensive/htmlcss" class="colored">mail@htmlacademy.ru</a></li>
           <li>Разработано - <br>
           <a href="https://htmlacademy.ru/intensive/htmlcss" class="colored">htmlacademy.ru</a></li>
         </ul>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
