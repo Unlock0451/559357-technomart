@@ -22,10 +22,10 @@
         <button class="search-icon" type="submit"></button>
       </form>
       <div class="marks">
-          <div class="marks-icon"></div>Закладки: <placeholder>0</placeholder><span class="number-of-marks"></span>
+          <div class="marks-icon"></div>Закладки: 0<span class="number-of-marks"></span>
       </div>
       <div class="cart">
-        <div class="cart-icon"></div>Корзина: <placeholder>10</placeholder><span class="number-of-items"></span>
+        <div class="cart-icon"></div>Корзина: 0<span class="number-of-items"></span>
       </div>
       <a class="order" href="#">
         Оформить заказ
@@ -65,6 +65,7 @@
     </header>
     <main class="container">
       <section class="services-list">
+        <h2 class="visually-hidden">Список услуг</h2>
         <div class="list-of-services-1">
           <div class="service-item"><div class="flag flag-new">новинка</div><span>Материалы</span><a href="materials.html">На любой вкус</a><div class="service-picture bucket-picture"></div></div>
           <div class="service-item"><span>Инструмент</span><a href="materials.html">На все случаи</a><div class="service-picture drill-icon"></div></div>
@@ -90,7 +91,8 @@
         </div>
       </section>
       <section class="popular">
-          <div class="sand-block-1"><div class="blue">Популярные товары:</div><a href="popularitems.html" >Все популярные товары</a></div></div>
+        <h2 class="visually-hidden">Популярные товары и производители</h2>
+          <div class="sand-block-1"><div class="blue">Популярные товары:</div><a href="popularitems.html" >Все популярные товары</a></div>
           <ul class="catalog-list-index">
             <li class="catalog-item">
               <div class="actions">
@@ -274,11 +276,11 @@
             <label  for="letter-text" class="user-item">Текст письма:</label>
             <input id="letter-text" type="password" name="letter" value="" placeholder="В свободной форме">
         </p>
-      </div>
       <div class="bottom-modal-part">
         <button class="button" type="submit">Отправить</button>
       </div>
       </form>
+    </div>
     <button class="modal-close" type="button">Закрыть</button>
     </section>
     <section class="modal modal-map">
@@ -301,6 +303,29 @@
       close.addEventListener("click", function (evt) {
         evt.preventDefault();
         popup.classList.remove("modal-show");
+      });
+
+      var mapLink = document.querySelector(".map");
+
+      var mapPopup = document.querySelector(".modal-map");
+      var mapClose = mapPopup.querySelector(".modal-close");
+
+      mapLink.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        mapPopup.classList.add("modal-show");
+      });
+
+      mapClose.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        mapPopup.classList.remove("modal-show");
+      });
+
+      window.addEventListener("keydown", function (evt) {
+        if (evt.keyCode === 27) {
+        if (mapPopup.classList.contains("modal-show")) {
+        mapPopup.classList.remove("modal-show");
+        }
+        }
       });
       </script>
   </body>
