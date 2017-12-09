@@ -1872,11 +1872,13 @@ main {
   text-transform: uppercase;
 }
 
-.sand-block a:hover {
+.sand-block-1 a:hover,
+.sand-block-2 a:hover {
   background-color: #ca2c37;
 }
 
-.sand-block a:active {
+.sand-block-1 a:active,
+.sand-block-2 a:active {
   background-color: #ba2732;
 }
 
