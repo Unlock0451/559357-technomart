@@ -591,16 +591,12 @@ input[type='radio'].visually-hidden {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* СЕТКА */
-
 html,
 body {
     min-width: 1200px;
     min-height: 2249px;
 }
 .index-body {
-    /*временно для сетки*/
-
     background-image: url(../img/bakground/technomart-index-1000.jpg);
     background-repeat: no-repeat;
     background-size: 1200px 3151px;
@@ -1649,8 +1645,6 @@ main {
     margin-bottom: 20px;
     margin-right: 0px;
     padding-top: 0px;
-    /* Временно для сетки */
-
     min-height: 146px;
     background-color: transparent;
     -webkit-box-shadow: inset 0 0 0 1px #eaeaea;
@@ -1949,8 +1943,6 @@ footer {
     flex-direction: column;
     width: 320px;
     margin-right: 50px;
-    /* Временно для сетки */
-
     min-height: 140px;
 }
 .logo-footer {
@@ -1958,8 +1950,6 @@ footer {
     padding: 0;
     margin-bottom: 27px;
     width: 220px;
-    /* Временно для сетки */
-
     min-height: 63px;
 }
 .find-us {
@@ -1968,7 +1958,6 @@ footer {
     width: 330px;
     padding-top: 2px;
     padding-left: 3px;
-    /* Временно для сетки */
 }
 .bottom-site-navigation {
     display: -webkit-box;
@@ -1981,8 +1970,6 @@ footer {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 570px;
-    /* Временно для сетки */
-
     min-height: 140px;
     margin: 0;
     padding: 0;
@@ -2062,8 +2049,6 @@ footer {
     margin-right: 70px;
     margin-top: -16px;
     text-align: left;
-    /* Временно для сетки */
-
     padding-top: 37px;
     font-family: 'Cuprum', 'Arial', sans-serif;
     font-size: 16px;
@@ -2146,8 +2131,6 @@ footer {
     line-height: 18px;
     max-width: 100px;
 }
-/* Сетка для каталога */
-
 .catalog-body {
     background-color: #ffffff;
 }
@@ -2191,8 +2174,6 @@ footer {
     margin-left: 130px;
     margin-right: 130px;
     margin-bottom: 20px;
-    /* Временно для сетки */
-
     min-height: 12px;
     position: relative;
     list-style: url(../img/dec/icon-right-small.svg);
@@ -2221,16 +2202,6 @@ footer {
     height: 15px;
     background: url(../img/dec/icon-home.svg) no-repeat;
 }
-/*.breadcrumps li .icon-right-small {
-  position: absolute;
-  top: 2px;
-  left: -18px;
-  width: 15px;
-  height: 15px;
-  background: url(../img/dec/icon-right-small.svg) no-repeat;
-}
-*/
-
 .breadcrumps a {
     position: relative;
     font-family: 'PT Sans', 'Arial', sans-serif;
@@ -2250,8 +2221,6 @@ footer {
     padding-top: 30px;
     font-weight: 500;
     background-color: #f2f6f8;
-    /* Временно для сетки */
-
     min-height: 58px;
     text-transform: uppercase;
 }
@@ -2268,8 +2237,6 @@ footer {
 }
 .filters {
     width: 220px;
-    /* Временно для сетки */
-
     min-height: 1150px;
 }
 .fieldset {
@@ -2426,8 +2393,6 @@ footer {
 }
 .catalog {
     width: 700px;
-    /* Временно для сетки */
-
     min-height: 1150px;
 }
 .catalog-sorting {
@@ -2520,8 +2485,6 @@ footer {
     margin-bottom: 20px;
     margin-right: 0px;
     padding-top: 1px;
-    /* Временно для сетки */
-
     min-height: 318px;
     background-color: transparent;
     -webkit-box-shadow: inset 0 0 0 0.5px #ccc;
@@ -2569,8 +2532,6 @@ footer {
     margin-bottom: 20px;
     margin-right: 0px;
     padding-top: 1px;
-    /* Временно для сетки */
-
     min-height: 318px;
     background-color: transparent;
     -webkit-box-shadow: inset 0 0 0 1px #eaeaea;
@@ -2817,7 +2778,6 @@ footer {
     list-style: none;
     margin-top: -2px;
     margin-bottom: 2px;
-    /* Временно для сетки */
 }
 .pagination-list a:not(:last-of-type) {
     display: block;
@@ -2869,8 +2829,6 @@ footer {
     padding: 0 0px;
     margin: 0 auto;
     width: 1200px;
-    /* Временно для сетки */
-
     min-height: 260px;
     background-color: #f2f6f8;
 }
