@@ -1742,7 +1742,7 @@ main {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #32425c;
-    font-weight: normal;
+    font-weight: bold;
 }
 .information-list .picture-swapping:nth-of-type(2) {
     border-top: 0.5px solid #4d637b;
