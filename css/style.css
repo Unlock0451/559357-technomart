@@ -815,7 +815,8 @@ input + button:hover {
     bottom: 14px;
     width: 20px;
     height: 16px;
-    background: url(../img/dec/cart-icon-white.png) no-repeat 0 0;
+    background: url(../img/dec/icon-cart.svg) no-repeat 0 0;
+    opacity: 1;
 }
 .cart:active {
     background-color: #161d29;
@@ -826,7 +827,8 @@ input + button:hover {
     bottom: 14px;
     width: 20px;
     height: 16px;
-    background: url(../img/dec/cart-icon.png) no-repeat 0 0;
+    background: url(../img/dec/icon-cart.svg) no-repeat 0 0;
+    opacity: 0.4;
 }
 .cart .cart-icon {
     position: absolute;
@@ -834,7 +836,8 @@ input + button:hover {
     bottom: 14px;
     width: 20px;
     height: 16px;
-    background: url(../img/dec/cart-icon.png) no-repeat 0 0;
+    background: url(../img/dec/icon-cart.svg) no-repeat 0 0;
+    opacity: 0.4;
 }
 .order {
     display: block;
@@ -2602,7 +2605,8 @@ footer {
     top: 7px;
     width: 15px;
     height: 15px;
-    background: url(../img/dec/cart-icon.png) no-repeat 0 0;
+    background: url(../img/dec/icon-cart.svg) no-repeat 0 0;
+    opacity: 0.4;
 }
 .catalog-item .actions .bookmark {
     color: #32425c;
